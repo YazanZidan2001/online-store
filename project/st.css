@@ -1,0 +1,93 @@
+body {
+  background-color: #ffffff; /* White background for the body */
+  font-family: Arial, sans-serif;
+
+  border: 8px solid #e0e0e0; /* Gray border around the body */
+}
+
+#all {
+  background-color: #fff;
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #000; /* Black background for the ul */
+  overflow: hidden;
+}
+
+nav li {
+  display: inline-block;
+  color: #fff; /* White text for the li elements */
+  padding: 10px 15px;
+}
+
+nav li:hover {
+  background-color: #555; /* Lighter background for li elements on hover */
+}
+
+figure {
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  width: 100px; /* Adjust width as necessary */
+  height: auto;
+}
+
+#rating {
+  background-color: #3cb371; /* Green background for the rating */
+  color: #fff;
+  font-size: 30px;
+  padding: 5px;
+  text-align: center;
+  width: 50%;
+  margin: 20px auto;
+}
+
+#score {
+  width: 50%;
+  margin: 20px auto;
+}
+
+#score h2 {
+  margin: 0;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#score p,
+#score ul {
+  text-align: left;
+  padding: 0 20px;
+}
+
+#score ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: #000; /* Black background for the ul inside the score section */
+}
+
+#score li {
+  color: #fff; /* White text for li elements inside the score section */
+  margin-bottom: 10px;
+}
+
+/* Bold style for Metascore */
+#score h2 {
+  font-weight: bold;
+}
